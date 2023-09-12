@@ -1,0 +1,136 @@
+let condicao1 = true;
+
+if (condicao1){
+    // Como o valor da condição é true,
+    //o código desse bloco é executado
+    console.log('Entrei no if 1!');
+}
+
+let condicao2 = false;
+
+if (condicao2){
+    // Como o valor da condição é false,
+    // o código desse bloco NÃO é execuitado
+    console.log('Entrei no if 2!');
+}
+
+// exercício 1
+
+function comparaDoisNumeros(a,b){
+
+let condicao = false
+if (condicao){
+    console.log('Entrei no if!'),
+    // Como o valor da condição é false,
+    // o código do bloco else será executado
+    console.log('Entrei no else!')
+}
+
+// exercício 2
+
+function comparaNumeros(a,b) {
+if (a === b){
+    return "iguais";
+}
+else{
+    return "diferentes";
+
+}
+}
+console.log(comparaDoisNumeros(
+    Number(prompt("Digite o primeiro numero")),
+    Number(prompt("Digite o segundo numero"))
+));
+
+let condicao1 = false
+let condicao2 = true
+if (condicao1){
+    console.log('Entrei no if 1')
+} else {
+    // Como o valor da condicao1 é false,
+    //o código do else será executado
+    if (condicao2) {
+        // Como o valor da condicao2 é true,
+        // executaremos esse código!
+        console.log('Entrei no if 2!')
+    }
+}
+
+let condicao1 = false
+let condicao2 = false
+
+if (condicao1){
+    console.log('Entrei no if 1!')
+} else if (condicao2) {
+    console.log('Entrei no if 2!')
+} else {
+    // Como tanto o valor da condicao1 e
+    // da condicao2 sao false, executa
+    // os comandos do bloco else
+    console.log('Entrei no else!')
+}
+
+Exercício 3
+
+function comparaNumeros(a,b) {
+    if (a === b){
+        return "iguais";
+    }
+    else if(a > B){
+        return "maior";
+    
+    }
+    else{
+        return "menor";
+    }
+    console.log(comparaDoisNumeros(
+        Number(prompt("Digite o primeiro numero")),
+        Number(prompt("Digite o segundo numero"))
+    ));
+}
+
+let paisDeOrigem
+if (paisDeOrigem === 'Brasil'){
+    console.log('brasileiro')
+} else if (paisDeOrigem === 'EUA'){
+    console.log('norte americano')
+} else if (pais de origem === 'Inglaterra'){
+    console.log('inglês')
+} else if (paisDeOrigem === 'França'){
+    console.log('francês')
+} else if (paisDeOrigem === 'Itália'){
+    console.log('italiano')
+} else if (paisDeOrigem === 'Canadá'){
+    console.log('canadense')
+} else {
+    console.log('nacionalidade não encontrada')
+}
+
+let paisDeOrigem
+switch (paisDeOrigem){
+    case 'Brasil':
+        console.log('brasileiro')
+        breakcase 'EUA':
+        console.log('norte americano')
+        break
+        case 'Inglaterra':
+            console.log('inglês')
+            breakdefault:
+            console.log('nacionalidade não encontrada')
+            break
+}
+
+Exercício 4
+
+let pokemon
+switch (pokemon){
+    case 'bulbossauro':
+    console.log('planta e Veneno')
+    break
+    case 'Charmander':
+        console.log('Fogo')
+    break
+    case 'Squirtle':
+        console.log('Água')
+        break
+}
